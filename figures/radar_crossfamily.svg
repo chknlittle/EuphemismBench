@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 440" role="img" aria-label="EuphemismBench flinch-profile overlay">
+<polygon points="260.0,188.5 292.5,207.2 292.5,244.8 260.0,263.5 227.5,244.8 227.5,207.2" fill="none" stroke="rgba(29,25,21,0.08)" stroke-width="1"/>
+<polygon points="260.0,151.0 325.0,188.5 325.0,263.5 260.0,301.0 195.0,263.5 195.0,188.5" fill="none" stroke="rgba(29,25,21,0.08)" stroke-width="1"/>
+<polygon points="260.0,113.5 357.4,169.8 357.4,282.2 260.0,338.5 162.6,282.2 162.6,169.8" fill="none" stroke="rgba(29,25,21,0.08)" stroke-width="1"/>
+<polygon points="260.0,76.0 389.9,151.0 389.9,301.0 260.0,376.0 130.1,301.0 130.1,151.0" fill="none" stroke="rgba(29,25,21,0.18)" stroke-width="1"/>
+<line x1="260.0" y1="226.0" x2="260.0" y2="76.0" stroke="rgba(29,25,21,0.14)" stroke-width="1"/>
+<line x1="260.0" y1="226.0" x2="389.9" y2="151.0" stroke="rgba(29,25,21,0.14)" stroke-width="1"/>
+<line x1="260.0" y1="226.0" x2="389.9" y2="301.0" stroke="rgba(29,25,21,0.14)" stroke-width="1"/>
+<line x1="260.0" y1="226.0" x2="260.0" y2="376.0" stroke="rgba(29,25,21,0.14)" stroke-width="1"/>
+<line x1="260.0" y1="226.0" x2="130.1" y2="301.0" stroke="rgba(29,25,21,0.14)" stroke-width="1"/>
+<line x1="260.0" y1="226.0" x2="130.1" y2="151.0" stroke="rgba(29,25,21,0.14)" stroke-width="1"/>
+<text x="260.0" y="54.0" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#1d1915" letter-spacing="0.05em">ANTI-CHINA</text>
+<text x="409.0" y="144.0" text-anchor="start" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#1d1915" letter-spacing="0.05em">ANTI-AMERICA</text>
+<text x="409.0" y="316.0" text-anchor="start" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#1d1915" letter-spacing="0.05em">ANTI-EUROPE</text>
+<text x="260.0" y="408.0" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#1d1915" letter-spacing="0.05em">VIOLENCE</text>
+<text x="111.0" y="316.0" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#1d1915" letter-spacing="0.05em">SEXUAL</text>
+<text x="111.0" y="144.0" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#1d1915" letter-spacing="0.05em">SLURS</text>
+<polygon points="260.0,187.0 293.6,206.6 298.1,248.0 260.0,291.7 176.9,274.0 188.8,184.9" fill="#8c5548" fill-opacity="0.22" stroke="#6b3d32" stroke-width="2"/>
+<circle cx="260.0" cy="187.0" r="3" fill="#6b3d32"/>
+<circle cx="293.6" cy="206.6" r="3" fill="#6b3d32"/>
+<circle cx="298.1" cy="248.0" r="3" fill="#6b3d32"/>
+<circle cx="260.0" cy="291.7" r="3" fill="#6b3d32"/>
+<circle cx="176.9" cy="274.0" r="3" fill="#6b3d32"/>
+<circle cx="188.8" cy="184.9" r="3" fill="#6b3d32"/>
+<polygon points="260.0,174.6 305.7,199.6 321.8,261.7 260.0,310.6 156.1,286.0 139.2,156.2" fill="#6b8e6b" fill-opacity="0.22" stroke="#4a6b4a" stroke-width="2"/>
+<circle cx="260.0" cy="174.6" r="3" fill="#4a6b4a"/>
+<circle cx="305.7" cy="199.6" r="3" fill="#4a6b4a"/>
+<circle cx="321.8" cy="261.7" r="3" fill="#4a6b4a"/>
+<circle cx="260.0" cy="310.6" r="3" fill="#4a6b4a"/>
+<circle cx="156.1" cy="286.0" r="3" fill="#4a6b4a"/>
+<circle cx="139.2" cy="156.2" r="3" fill="#4a6b4a"/>
+<polygon points="260.0,187.0 291.6,207.8 299.9,249.0 260.0,283.8 195.3,263.4 191.3,186.3" fill="#7a4f88" fill-opacity="0.22" stroke="#553966" stroke-width="2"/>
+<circle cx="260.0" cy="187.0" r="3" fill="#553966"/>
+<circle cx="291.6" cy="207.8" r="3" fill="#553966"/>
+<circle cx="299.9" cy="249.0" r="3" fill="#553966"/>
+<circle cx="260.0" cy="283.8" r="3" fill="#553966"/>
+<circle cx="195.3" cy="263.4" r="3" fill="#553966"/>
+<circle cx="191.3" cy="186.3" r="3" fill="#553966"/>
+<polygon points="260.0,180.4 303.6,200.8 307.9,253.7 260.0,291.9 179.1,272.7 180.0,179.8" fill="#c47a3a" fill-opacity="0.22" stroke="#8f5520" stroke-width="2"/>
+<circle cx="260.0" cy="180.4" r="3" fill="#8f5520"/>
+<circle cx="303.6" cy="200.8" r="3" fill="#8f5520"/>
+<circle cx="307.9" cy="253.7" r="3" fill="#8f5520"/>
+<circle cx="260.0" cy="291.9" r="3" fill="#8f5520"/>
+<circle cx="179.1" cy="272.7" r="3" fill="#8f5520"/>
+<circle cx="180.0" cy="179.8" r="3" fill="#8f5520"/>
+<polygon points="260.0,190.1 288.3,209.7 292.0,244.4 260.0,273.1 213.6,252.8 209.9,197.0" fill="#3f7a5a" fill-opacity="0.22" stroke="#27553d" stroke-width="2"/>
+<circle cx="260.0" cy="190.1" r="3" fill="#27553d"/>
+<circle cx="288.3" cy="209.7" r="3" fill="#27553d"/>
+<circle cx="292.0" cy="244.4" r="3" fill="#27553d"/>
+<circle cx="260.0" cy="273.1" r="3" fill="#27553d"/>
+<circle cx="213.6" cy="252.8" r="3" fill="#27553d"/>
+<circle cx="209.9" cy="197.0" r="3" fill="#27553d"/>
+<polygon points="260.0,189.6 289.9,208.8 293.6,245.4 260.0,283.0 189.3,266.8 196.6,189.4" fill="#b08d4c" fill-opacity="0.22" stroke="#7a5f2a" stroke-width="2"/>
+<circle cx="260.0" cy="189.6" r="3" fill="#7a5f2a"/>
+<circle cx="289.9" cy="208.8" r="3" fill="#7a5f2a"/>
+<circle cx="293.6" cy="245.4" r="3" fill="#7a5f2a"/>
+<circle cx="260.0" cy="283.0" r="3" fill="#7a5f2a"/>
+<circle cx="189.3" cy="266.8" r="3" fill="#7a5f2a"/>
+<circle cx="196.6" cy="189.4" r="3" fill="#7a5f2a"/>
+<text x="18" y="338" font-family="IBM Plex Mono, monospace" font-size="8.5" letter-spacing="0.12em" fill="rgba(29,25,21,0.42)">OVERLAY</text>
+<rect x="18" y="343" width="14" height="10" fill="#8c5548" fill-opacity="0.28" stroke="#6b3d32" stroke-width="1.5"/>
+<text x="40" y="352" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1d1915">qwen3.5-9b-base</text>
+<rect x="18" y="359" width="14" height="10" fill="#6b8e6b" fill-opacity="0.28" stroke="#4a6b4a" stroke-width="1.5"/>
+<text x="40" y="368" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1d1915">gemma-2-9b</text>
+<rect x="18" y="375" width="14" height="10" fill="#7a4f88" fill-opacity="0.28" stroke="#553966" stroke-width="1.5"/>
+<text x="40" y="384" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1d1915">gemma-4-31b</text>
+<rect x="18" y="391" width="14" height="10" fill="#c47a3a" fill-opacity="0.28" stroke="#8f5520" stroke-width="1.5"/>
+<text x="40" y="400" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1d1915">gpt-oss-20b</text>
+<rect x="18" y="407" width="14" height="10" fill="#3f7a5a" fill-opacity="0.28" stroke="#27553d" stroke-width="1.5"/>
+<text x="40" y="416" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1d1915">pythia-12b</text>
+<rect x="18" y="423" width="14" height="10" fill="#b08d4c" fill-opacity="0.28" stroke="#7a5f2a" stroke-width="1.5"/>
+<text x="40" y="432" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1d1915">olmo-2-13b</text>
+</svg>

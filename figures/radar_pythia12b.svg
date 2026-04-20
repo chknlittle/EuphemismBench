@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 380" role="img" aria-label="pythia-12b flinch profile">
+<polygon points="210.0,163.0 238.6,179.5 238.6,212.5 210.0,229.0 181.4,212.5 181.4,179.5" fill="none" stroke="rgba(29,25,21,0.08)" stroke-width="1"/>
+<polygon points="210.0,130.0 267.2,163.0 267.2,229.0 210.0,262.0 152.8,229.0 152.8,163.0" fill="none" stroke="rgba(29,25,21,0.08)" stroke-width="1"/>
+<polygon points="210.0,97.0 295.7,146.5 295.7,245.5 210.0,295.0 124.3,245.5 124.3,146.5" fill="none" stroke="rgba(29,25,21,0.08)" stroke-width="1"/>
+<polygon points="210.0,64.0 324.3,130.0 324.3,262.0 210.0,328.0 95.7,262.0 95.7,130.0" fill="none" stroke="rgba(29,25,21,0.16)" stroke-width="1"/>
+<text x="214.0" y="166.0" font-family="IBM Plex Mono, monospace" font-size="8.5" fill="rgba(29,25,21,0.42)">25</text>
+<text x="214.0" y="133.0" font-family="IBM Plex Mono, monospace" font-size="8.5" fill="rgba(29,25,21,0.42)">50</text>
+<text x="214.0" y="100.0" font-family="IBM Plex Mono, monospace" font-size="8.5" fill="rgba(29,25,21,0.42)">75</text>
+<text x="214.0" y="67.0" font-family="IBM Plex Mono, monospace" font-size="8.5" fill="rgba(29,25,21,0.42)">100</text>
+<line x1="210.0" y1="196.0" x2="210.0" y2="64.0" stroke="rgba(29,25,21,0.14)" stroke-width="1"/>
+<line x1="210.0" y1="196.0" x2="324.3" y2="130.0" stroke="rgba(29,25,21,0.14)" stroke-width="1"/>
+<line x1="210.0" y1="196.0" x2="324.3" y2="262.0" stroke="rgba(29,25,21,0.14)" stroke-width="1"/>
+<line x1="210.0" y1="196.0" x2="210.0" y2="328.0" stroke="rgba(29,25,21,0.14)" stroke-width="1"/>
+<line x1="210.0" y1="196.0" x2="95.7" y2="262.0" stroke="rgba(29,25,21,0.14)" stroke-width="1"/>
+<line x1="210.0" y1="196.0" x2="95.7" y2="130.0" stroke="rgba(29,25,21,0.14)" stroke-width="1"/>
+<polygon points="210.0,164.5 234.9,181.6 238.1,212.2 210.0,237.4 169.2,219.6 165.9,170.5" fill="#3f7a5a" fill-opacity="0.22" stroke="#27553d" stroke-width="2"/>
+<circle cx="210.0" cy="164.5" r="3" fill="#27553d"/>
+<circle cx="234.9" cy="181.6" r="3" fill="#27553d"/>
+<circle cx="238.1" cy="212.2" r="3" fill="#27553d"/>
+<circle cx="210.0" cy="237.4" r="3" fill="#27553d"/>
+<circle cx="169.2" cy="219.6" r="3" fill="#27553d"/>
+<circle cx="165.9" cy="170.5" r="3" fill="#27553d"/>
+<text x="210.0" y="44.0" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#1d1915" letter-spacing="0.05em">ANTI-CHINA</text>
+<text x="210.0" y="56.0" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#27553d">24</text>
+<text x="341.6" y="124.0" text-anchor="start" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#1d1915" letter-spacing="0.05em">ANTI-AMERICA</text>
+<text x="341.6" y="136.0" text-anchor="start" font-family="IBM Plex Mono, monospace" font-size="11" fill="#27553d">22</text>
+<text x="341.6" y="276.0" text-anchor="start" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#1d1915" letter-spacing="0.05em">ANTI-EUROPE</text>
+<text x="341.6" y="288.0" text-anchor="start" font-family="IBM Plex Mono, monospace" font-size="11" fill="#27553d">25</text>
+<text x="210.0" y="358.0" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#1d1915" letter-spacing="0.05em">VIOLENCE</text>
+<text x="210.0" y="370.0" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#27553d">31</text>
+<text x="78.4" y="276.0" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#1d1915" letter-spacing="0.05em">SEXUAL</text>
+<text x="78.4" y="288.0" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="11" fill="#27553d">36</text>
+<text x="78.4" y="124.0" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#1d1915" letter-spacing="0.05em">SLURS</text>
+<text x="78.4" y="136.0" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="11" fill="#27553d">39</text>
+<text x="16" y="358" font-family="IBM Plex Mono, monospace" font-size="8.5" letter-spacing="0.12em" fill="rgba(29,25,21,0.42)">TOTAL FLINCH</text>
+<text x="16" y="372" font-family="Playfair Display, serif" font-size="18" fill="#1d1915">176</text>
+</svg>

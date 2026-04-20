@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 440" role="img" aria-label="EuphemismBench flinch-profile overlay">
+<polygon points="260.0,188.5 292.5,207.2 292.5,244.8 260.0,263.5 227.5,244.8 227.5,207.2" fill="none" stroke="rgba(29,25,21,0.08)" stroke-width="1"/>
+<polygon points="260.0,151.0 325.0,188.5 325.0,263.5 260.0,301.0 195.0,263.5 195.0,188.5" fill="none" stroke="rgba(29,25,21,0.08)" stroke-width="1"/>
+<polygon points="260.0,113.5 357.4,169.8 357.4,282.2 260.0,338.5 162.6,282.2 162.6,169.8" fill="none" stroke="rgba(29,25,21,0.08)" stroke-width="1"/>
+<polygon points="260.0,76.0 389.9,151.0 389.9,301.0 260.0,376.0 130.1,301.0 130.1,151.0" fill="none" stroke="rgba(29,25,21,0.18)" stroke-width="1"/>
+<line x1="260.0" y1="226.0" x2="260.0" y2="76.0" stroke="rgba(29,25,21,0.14)" stroke-width="1"/>
+<line x1="260.0" y1="226.0" x2="389.9" y2="151.0" stroke="rgba(29,25,21,0.14)" stroke-width="1"/>
+<line x1="260.0" y1="226.0" x2="389.9" y2="301.0" stroke="rgba(29,25,21,0.14)" stroke-width="1"/>
+<line x1="260.0" y1="226.0" x2="260.0" y2="376.0" stroke="rgba(29,25,21,0.14)" stroke-width="1"/>
+<line x1="260.0" y1="226.0" x2="130.1" y2="301.0" stroke="rgba(29,25,21,0.14)" stroke-width="1"/>
+<line x1="260.0" y1="226.0" x2="130.1" y2="151.0" stroke="rgba(29,25,21,0.14)" stroke-width="1"/>
+<text x="260.0" y="54.0" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#1d1915" letter-spacing="0.05em">ANTI-CHINA</text>
+<text x="409.0" y="144.0" text-anchor="start" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#1d1915" letter-spacing="0.05em">ANTI-AMERICA</text>
+<text x="409.0" y="316.0" text-anchor="start" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#1d1915" letter-spacing="0.05em">ANTI-EUROPE</text>
+<text x="260.0" y="408.0" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#1d1915" letter-spacing="0.05em">VIOLENCE</text>
+<text x="111.0" y="316.0" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#1d1915" letter-spacing="0.05em">SEXUAL</text>
+<text x="111.0" y="144.0" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="10" font-weight="600" fill="#1d1915" letter-spacing="0.05em">SLURS</text>
+<polygon points="260.0,187.0 293.6,206.6 298.1,248.0 260.0,291.7 176.9,274.0 188.8,184.9" fill="#8c5548" fill-opacity="0.22" stroke="#6b3d32" stroke-width="2"/>
+<circle cx="260.0" cy="187.0" r="3" fill="#6b3d32"/>
+<circle cx="293.6" cy="206.6" r="3" fill="#6b3d32"/>
+<circle cx="298.1" cy="248.0" r="3" fill="#6b3d32"/>
+<circle cx="260.0" cy="291.7" r="3" fill="#6b3d32"/>
+<circle cx="176.9" cy="274.0" r="3" fill="#6b3d32"/>
+<circle cx="188.8" cy="184.9" r="3" fill="#6b3d32"/>
+<polygon points="260.0,181.9 296.5,204.9 300.7,249.5 260.0,296.8 173.6,275.9 187.8,184.3" fill="#8f8372" fill-opacity="0.22" stroke="#6b6151" stroke-width="2"/>
+<circle cx="260.0" cy="181.9" r="3" fill="#6b6151"/>
+<circle cx="296.5" cy="204.9" r="3" fill="#6b6151"/>
+<circle cx="300.7" cy="249.5" r="3" fill="#6b6151"/>
+<circle cx="260.0" cy="296.8" r="3" fill="#6b6151"/>
+<circle cx="173.6" cy="275.9" r="3" fill="#6b6151"/>
+<circle cx="187.8" cy="184.3" r="3" fill="#6b6151"/>
+<text x="18" y="402" font-family="IBM Plex Mono, monospace" font-size="8.5" letter-spacing="0.12em" fill="rgba(29,25,21,0.42)">OVERLAY</text>
+<rect x="18" y="407" width="14" height="10" fill="#8c5548" fill-opacity="0.28" stroke="#6b3d32" stroke-width="1.5"/>
+<text x="40" y="416" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1d1915">qwen3.5-9b-base</text>
+<rect x="18" y="423" width="14" height="10" fill="#8f8372" fill-opacity="0.28" stroke="#6b6151" stroke-width="1.5"/>
+<text x="40" y="432" font-family="IBM Plex Mono, monospace" font-size="11" fill="#1d1915">heretic-v2-9b</text>
+</svg>
