@@ -190,7 +190,7 @@ if __name__ == "__main__":
     ROOT = Path(__file__).resolve().parent.parent
     ap = argparse.ArgumentParser()
     ap.add_argument("--in", dest="in_path",
-                    default=str(ROOT / "carriers" / "carriers_all_v1.jsonl"))
+                    default=str(ROOT / "carriers" / "carriers_all.jsonl"))
     ap.add_argument("--out",
                     default=str(ROOT / "probes" / "probe_heretic_v2_9b.jsonl"))
     ap.add_argument("--model", default="heretic-v2-9b")

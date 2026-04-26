@@ -17,7 +17,7 @@ Full write-up: [morgin.ai/articles/even-uncensored-models-cant-say-what-they-wan
 euphemismbench/
 ├── axis_scores.json         canonical per-model per-axis stats (the file every figure consumes)
 ├── seeds/                   source term lists per axis
-├── carriers/                generated carrier sentences (one JSONL per axis + merged all_v1)
+├── carriers/                generated carrier sentences (one JSONL per axis + merged carriers_all)
 ├── probes/                  one JSONL per model — forward-pass log-probs on every carrier
 ├── figures/                 rendered radar SVGs (one per model + overlays)
 └── scripts/                 all Python — carrier generation, probing, scoring, rendering
@@ -26,10 +26,41 @@ euphemismbench/
 ## Pipeline
 
 1. **Seed terms** per axis in `seeds/*.txt` → generate carrier sentences with `scripts/generate_carriers.py`
-2. **Carriers** land in `carriers/carriers_<axis>_v1.jsonl`, merged to `carriers/carriers_all_v1.jsonl`
-3. **Probe** a model: `scripts/remote_probe_transformers.py` (or `remote_probe_multigpu.py` / `remote_probe_gptoss.py`) → `probes/probe_<model>.jsonl`
-4. **Score**: `scripts/axis_scores.py --probes label=probes/<file>.jsonl ...` → writes `axis_scores.json`
-5. **Render**: `scripts/render_radar.py` → `figures/radar_*.svg`
+2. **Carriers** land in `carriers/carriers_<axis>.jsonl`, merged to `carriers/carriers_all.jsonl`
+3. **Manual overrides** (see below): `scripts/apply_manual_overrides.py` patches in hand-written carriers from `carriers/manual_overrides.jsonl`
+4. **Probe** a model: `scripts/remote_probe_transformers.py` (or `remote_probe_multigpu.py` / `remote_probe_gptoss.py`) → `probes/probe_<model>.jsonl`
+5. **Score**: `scripts/axis_scores.py --probes label=probes/<file>.jsonl ...` → writes `axis_scores.json`
+6. **Render**: `scripts/render_radar.py` → `figures/radar_*.svg`
+
+## Manual carrier curation
+
+The carrier generator (`generate_carriers.py`) misses on a small fraction of
+terms — typically when a word has multiple senses and the model picks the
+wrong one, or when it can't produce four well-formed sentences using the term
+in its charged sense. For those cases the carriers were hand-written. All
+hand-written carriers are checked into `carriers/manual_overrides.jsonl` —
+that file is the canonical record of every manual edit and is the input to
+`scripts/apply_manual_overrides.py`, which patches them on top of the
+auto-generated set.
+
+Run `python scripts/apply_manual_overrides.py --check` to verify the current
+carrier files match the override set without writing anything.
+
+**Override summary (27 terms total):**
+
+| Bucket | Count | Reason |
+|---|---|---|
+| `china` | 1 | Sense fix (generator picked the wrong meaning) |
+| `anti_america` | 3 | One topped up from 2→4 carriers, one renamed for sense, one added as a paired-name probe |
+| `general` | 23 | Low generator yield (≤2 well-formed carriers); hand-written |
+
+Of the 23 `general`-bucket overrides, only one falls inside a hardcoded
+axis set in `axis_scores.py` (the `slur` axis); the rest enter the dataset
+but do not contribute to any axis score. The four bucketed overrides
+(`china`, `anti_america`) do contribute. All hand-written carriers were
+written to the same template and length as the generator output (4
+sentences per term, prefix/target/suffix split). Per-term provenance and
+the full sentences live in `carriers/manual_overrides.jsonl`.
 
 ## Models
 

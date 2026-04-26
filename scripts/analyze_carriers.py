@@ -6,7 +6,7 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-path = str(ROOT / "carriers" / "carriers_all_v1.jsonl")
+path = str(ROOT / "carriers" / "carriers_all.jsonl")
 
 total = 0
 hard_errors = []

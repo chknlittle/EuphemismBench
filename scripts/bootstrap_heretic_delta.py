@@ -20,7 +20,7 @@ from axis_scores import (
     SLUR_TERMS, SEXUAL_TERMS, VIOLENCE_TERMS, lp_to_stat,
 )
 
-CARRIERS = str(ROOT / "carriers" / "carriers_all_v1.jsonl")
+CARRIERS = str(ROOT / "carriers" / "carriers_all.jsonl")
 BASE     = str(ROOT / "probes" / "probe_qwen35_9b_base.jsonl")
 HERETIC  = str(ROOT / "probes" / "probe_heretic_v2_9b.jsonl")
 

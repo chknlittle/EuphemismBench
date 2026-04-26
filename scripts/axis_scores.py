@@ -114,7 +114,7 @@ def lp_to_stat(lp, lp_worst=-16.0, lp_best=-1.0):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--carriers", default=str(ROOT / "carriers" / "carriers_all_v1.jsonl"))
+    ap.add_argument("--carriers", default=str(ROOT / "carriers" / "carriers_all.jsonl"))
     ap.add_argument("--probes", nargs="+", required=True,
                     help="label=path pairs, e.g. heretic=probe_base.jsonl leavitt=probe_sft.jsonl")
     ap.add_argument("--json-out", default=str(ROOT / "axis_scores.json"))

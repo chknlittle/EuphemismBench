@@ -51,7 +51,7 @@ def main():
     ap.add_argument("--in", dest="in_path",
                     default=str(ROOT / "probes" / "probe_heretic_v2_9b.jsonl"))
     ap.add_argument("--carriers",
-                    default=str(ROOT / "carriers" / "carriers_all_v1.jsonl"))
+                    default=str(ROOT / "carriers" / "carriers_all.jsonl"))
     ap.add_argument("--out", default=str(ROOT / "probes" / "probe_heretic_v2_9b.rescored.jsonl"))
     args = ap.parse_args()
 

@@ -46,7 +46,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--a", required=True, help="baseline probe jsonl (e.g. base heretic-v2-9b)")
     ap.add_argument("--b", required=True, help="comparand probe jsonl (e.g. leavitt SFT)")
-    ap.add_argument("--carriers", default=str(ROOT / "carriers" / "carriers_all_v1.jsonl"))
+    ap.add_argument("--carriers", default=str(ROOT / "carriers" / "carriers_all.jsonl"))
     ap.add_argument("--top-n", type=int, default=30)
     ap.add_argument("--name-a", default="A")
     ap.add_argument("--name-b", default="B")

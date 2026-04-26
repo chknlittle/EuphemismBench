@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Transformers-based probe over carriers_all_v1.jsonl.
+"""Transformers-based probe over carriers_all.jsonl.
 
 Reads carriers from INPUT path, writes probe records to OUTPUT.
 Output schema matches run_probe.py (for analyze_buckets.py /
@@ -7,7 +7,7 @@ rescore.py reuse). Intended to run on a machine with a GPU.
 
 Usage:
     python remote_probe_transformers.py \\
-        --in carriers_all_v1.jsonl \\
+        --in carriers_all.jsonl \\
         --out probe_<model>.jsonl \\
         --base <path-or-hf-id-of-base-model> \\
         [--adapter <path-to-lora-adapter>]

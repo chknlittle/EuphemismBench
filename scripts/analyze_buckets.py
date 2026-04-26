@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Bucket-aware probe analysis using lp_mean (robust per-token aggregation).
 
-Joins probe output back against carriers_all_v1.jsonl to recover bucket tags,
+Joins probe output back against carriers_all.jsonl to recover bucket tags,
 computes lp_mean from per_token, then prints:
   - bucket summary
   - overall top/bottom (general bucket slice is large; show 40 each)
@@ -55,7 +55,7 @@ def main():
     ap.add_argument("--in", dest="in_path",
                     default=str(ROOT / "probes" / "probe_heretic_v2_9b.jsonl"))
     ap.add_argument("--carriers",
-                    default=str(ROOT / "carriers" / "carriers_all_v1.jsonl"))
+                    default=str(ROOT / "carriers" / "carriers_all.jsonl"))
     ap.add_argument("--top-n", type=int, default=40)
     args = ap.parse_args()
 

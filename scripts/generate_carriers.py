@@ -209,8 +209,8 @@ if __name__ == "__main__":
     from pathlib import Path
     ROOT = Path(__file__).resolve().parent.parent
     ap = argparse.ArgumentParser()
-    ap.add_argument("--seed", default=str(ROOT / "seeds" / "anti_america_v1.txt"))
-    ap.add_argument("--out", default=str(ROOT / "carriers" / "carriers_v1.jsonl"))
+    ap.add_argument("--seed", default=str(ROOT / "seeds" / "anti_america.txt"))
+    ap.add_argument("--out", default=str(ROOT / "carriers" / "carriers_anti_america.jsonl"))
     ap.add_argument("--concurrency", type=int, default=16)
     ap.add_argument("-n", "--carriers-per-term", type=int, default=4)
     args = ap.parse_args()
