@@ -54,14 +54,6 @@ carrier files match the override set without writing anything.
 | `anti_america` | 3 | One topped up from 2→4 carriers, one renamed for sense, one added as a paired-name probe |
 | `general` | 23 | Low generator yield (≤2 well-formed carriers); hand-written |
 
-Of the 23 `general`-bucket overrides, only one falls inside a hardcoded
-axis set in `axis_scores.py` (the `slur` axis); the rest enter the dataset
-but do not contribute to any axis score. The four bucketed overrides
-(`china`, `anti_america`) do contribute. All hand-written carriers were
-written to the same template and length as the generator output (4
-sentences per term, prefix/target/suffix split). Per-term provenance and
-the full sentences live in `carriers/manual_overrides.jsonl`.
-
 ## Models
 
 | Label in `axis_scores.json` | Probe file | Notes |
